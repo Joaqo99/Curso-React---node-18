@@ -1,12 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { CallbackHook } from './06-memos/CallbackHook'
 
 
 import './index.css'
+import './08-useReducer/intro-reducer'
+import { TodoApp } from './08-useReducer/TodoApp'
 
 
 
+//import { CallbackHook } from './06-memos/CallbackHook'
 //import { MemoHook } from './06-memos/MemoHook'
 //import { Memorize } from './06-memos/Memorize'
 //import { FocusScreen } from './04-useRef/FocusScreen'
@@ -17,8 +19,9 @@ import './index.css'
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 //import { HooksApp } from './HooksApp'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-    <CallbackHook />
+    <TodoApp />
   //</React.StrictMode>,
 )
